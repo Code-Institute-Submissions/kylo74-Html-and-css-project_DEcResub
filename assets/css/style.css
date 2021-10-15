@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    }
+
+/*title*/
+
+#title {
+    float: left;
+}
+
+/*navigation links*/
+
+#nav {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#nav li {
+    float: right;
+    list-style-type: none;
+    margin-right: 20px;
+}
