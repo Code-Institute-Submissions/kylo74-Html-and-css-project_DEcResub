@@ -34,13 +34,14 @@ body {
 
 #nav a {
     text-decoration: none;
-    color: inherit;
+    color: black;
+    border: 1px solid black;
 }
 
 #nav a:hover{
-    border-bottom: 1px solid black;
+    color: blue;
 }
 
-.active {
-    border-bottom: 1px solid black;
+.current {
+    color: blue;
 }
