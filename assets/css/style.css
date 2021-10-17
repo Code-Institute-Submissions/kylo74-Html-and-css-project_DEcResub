@@ -45,7 +45,8 @@ body {
 /*hero image*/
 
 #hero-image {
-    height: 900px;
+    height: 800px;
     width: 100%;
     background: url('../images/original.jpg') no-repeat center center;
+    overflow: hidden;
 }
