@@ -145,3 +145,18 @@ footer {
     background-color: black;
     height: 100px;
 }
+
+footer ul {
+    text-align: center;
+}
+
+footer li {
+    display: inline;
+    font-size: x-large;
+    margin: 1%;
+    padding: 5%;
+}
+
+footer a {
+    color: white;
+}
