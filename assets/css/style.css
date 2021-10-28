@@ -9,6 +9,7 @@ body {
     color: black;
 }
 
+
 /*title*/
 
 #title {
@@ -161,4 +162,10 @@ footer li {
 
 footer a {
     color: white;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: white;
 }
