@@ -163,7 +163,12 @@ footer li {
 
 footer a {
     color: white;
+    font-size: 210%;
+    margin: 1%;
+    padding: 6%;
 }
+
+/* header */ 
 
 header {
     position: fixed;
