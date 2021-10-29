@@ -186,8 +186,25 @@ header {
 
 .contact-section {
     width: 500px;
+    text-align: center;
+    margin: auto;
+    padding-top: 75px;
+}
+
+.contact-section h2 {
+    font-size: 200%;
 }
 
 #name, #email, #subject,  #message {
     border: 1px solid black;
+    width: 500px;
+}
+
+#name, #email, #subject {
+    height: 40px;
+    font-size: 120%;
+}
+
+#message {
+    font-size: 150%;
 }
