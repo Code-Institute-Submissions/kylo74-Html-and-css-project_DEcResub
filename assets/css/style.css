@@ -181,3 +181,13 @@ header {
     width: 100%;
     background-color: white;
 }
+
+/* contact */
+
+.contact-section {
+    width: 500px;
+}
+
+#name, #email, #subject,  #message {
+    border: 1px solid black;
+}
