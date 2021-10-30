@@ -208,3 +208,9 @@ header {
 #message {
     font-size: 150%;
 }
+
+#submit {
+    background-color: rgb(63, 65, 66);
+    width: 9em;
+    height: 2em;
+}
