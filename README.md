@@ -26,3 +26,15 @@ This website was created to provide a user who is interested in the apollo 11 mi
     - This makes the information very clear to see, it is also accompanied by a relevant image of what was happening at that time 
 
 ![main info](assets/images/info.jpg)
+
+- __Footer__
+    - The footer contains the youtube twitter and instagram icons, these icons are links to nasa's youtube twitter and instagram
+    - They change color when you hover over them and the pages are opened in a new tab when clicked
+
+![footer](assets/images/footer.jpg)
+
+- __Contact page__
+    - The contact page is where someone could potentially ask questions about something they would like to know
+    - It has a form that the user can fill out
+
+![contact](assets/images/contact-page.jpg)
