@@ -9,7 +9,6 @@ body {
     color: black;
 }
 
-
 /*title*/
 
 #title {
@@ -152,8 +151,16 @@ body {
 
 #vid {
     margin-top: 45px;
-    margin-left: 25%;
-    overflow: auto;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 500px;
+    padding-left: 380px;
+}
+
+iframe {
+    width: 60%;
+    height: 100%;
 }
 
 /*footer*/
@@ -293,6 +300,10 @@ header {
      padding: 0;
     }
 
+    #vid {
+        padding-left: 190px;
+    }
+
     
 }
 
@@ -304,5 +315,13 @@ header {
 
     #landing {
         height: 1100px;
+    }
+
+    #launch {
+        height: 950px;
+    }
+
+    #seperation {
+        height: 950px;
     }
 }
