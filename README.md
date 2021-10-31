@@ -12,4 +12,4 @@ This website was created to provide a user who is interested in the apollo 11 mi
     - Is on every page of the website, has links to all the pages, some elements change color to show which page youre on and when you're hovering over them
     - This bar is part of the header which is fixed to the top of the screen for easy accessability
 
-![Nav Bar](nav-bar.jpg)
+![Nav Bar](assets/images/nav-bar.jpg)
