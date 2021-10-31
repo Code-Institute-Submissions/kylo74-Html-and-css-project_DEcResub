@@ -320,8 +320,29 @@ header {
     #launch {
         height: 950px;
     }
-
     #seperation {
         height: 950px;
+    }
+
+}
+
+@media screen and (max-width:730px) {
+    #landing {
+        height: 1200px;
+    }
+
+    #launch {
+        height: 1150px;
+    }
+
+}
+
+@media screen and (max-width:710px) {
+    #seperation {
+        height: 1200px;
+    }
+
+    #landing {
+        height: 1350px;
     }
 }
