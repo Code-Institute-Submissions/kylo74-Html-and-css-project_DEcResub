@@ -238,7 +238,7 @@ header {
 @media screen and (max-width:1350px) {
    #launch {
        width: 65%;
-       height: 800px;
+       height: 900px;
        margin: 0 auto;
    }
 
@@ -257,7 +257,7 @@ header {
 
    #seperation {
     width: 65%;
-    height: 800px;
+    height: 900px;
     margin: 0 auto;
    }
 
@@ -276,7 +276,7 @@ header {
 
     #landing {
         width: 65%;
-        height: 900px;
+        height: 1000px;
         margin: 0 auto;
     }
  
@@ -294,4 +294,15 @@ header {
     }
 
     
+}
+
+@media screen and (max-width:850px) {
+    #nav {
+        clear: left;
+        float: left;
+    }
+
+    #landing {
+        height: 1100px;
+    }
 }
