@@ -61,6 +61,10 @@ body {
 
 /* information about the launch*/
 
+#launch-background {
+    background-color: black;
+}
+
 #launch {
     width: 100%;
     height: 600px;
@@ -110,6 +114,10 @@ body {
 
 /* landing section */
 
+#landing-background {
+    background-color: black;
+}
+
 #landing {
     width: 100%;
     height: 600px;
@@ -145,6 +153,7 @@ body {
 #vid {
     margin-top: 45px;
     margin-left: 25%;
+    overflow: auto;
 }
 
 /*footer*/
@@ -222,4 +231,67 @@ header {
     background-color: rgb(63, 65, 66);
     width: 9em;
     height: 2em;
+}
+
+/* media queries */
+
+@media screen and (max-width:1350px) {
+   #launch {
+       width: 65%;
+       height: 800px;
+       margin: 0 auto;
+   }
+
+   #launch-img {
+       clear: both;
+       width: 100%;
+       float: left;
+       padding: 0;
+   }
+
+   #launch-info {
+    width: 100%;
+    float: left;
+    padding: 0;
+   }
+
+   #seperation {
+    width: 65%;
+    height: 800px;
+    margin: 0 auto;
+   }
+
+   #seperation-img {
+     clear: both;
+     width: 100%;
+     float: left;
+     padding: 0;
+    }
+
+    #seperation-info {
+     width: 100%;
+     float: left;
+     padding: 0;
+    }
+
+    #landing {
+        width: 65%;
+        height: 900px;
+        margin: 0 auto;
+    }
+ 
+    #landing-img {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+ 
+    #landing-info {
+     width: 100%;
+     float: left;
+     padding: 0;
+    }
+
+    
 }
