@@ -13,3 +13,16 @@ This website was created to provide a user who is interested in the apollo 11 mi
     - This bar is part of the header which is fixed to the top of the screen for easy accessability
 
 ![Nav Bar](assets/images/nav-bar.jpg)
+
+- __Hero image__
+    - Each page apart from the contact page has a hero image this image Is always related to what information is going to be presented on that page. For example the page about the beginning  has a hero image of a rocket launching.
+    - It provides users with images showing them what was happing at the time.
+
+![Hero image](assets/images/hero.jpg)
+
+
+- __Main information section__
+    - On the three pages where information about the event is presented it is presented in 3 sections that alternate between having a black background and white text and a white backgroung with black text
+    - This makes the information very clear to see, it is also accompanied by a relevant image of what was happening at that time 
+
+![main info](assets/images/info.jpg)
