@@ -145,8 +145,11 @@ body {
 footer {
     bottom: 0;
     width: 100%;
-    height: 150px;
+    height: 70px;
     background: black;
+    position: fixed;
+    left: 0;
+    bottom: 0;
 }
 
 footer ul {
@@ -161,7 +164,7 @@ footer li {
 
 footer a {
     color: white;
-    font-size: 3rem;
+    font-size: 35px;
     margin: 1%;
     padding: 6%;
 }
@@ -170,3 +173,63 @@ footer a:hover {
     color: grey;
 }
 
+footer a {
+    size: 50%;
+}
+
+/* video section */
+
+#vid-section{
+    height: 600px;
+}
+
+#vid {
+    margin-top: 35px;
+    height: 500px;
+    margin-bottom: 45px;
+}
+
+iframe {
+    width: 60%;
+    height: 96%;
+}
+
+/* contact section */
+
+#contact {
+    width: 100%;
+    height: 850px;
+}
+
+.contact-section {
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    padding-top: 60px;
+    margin-bottom: 75px;
+}
+
+.contact-section h2 {
+    font-size: 200%;
+}
+
+#name, #email, #subject,  #message {
+    border: 1px solid black;
+    width: 500px;
+}
+
+#name, #email, #subject {
+    height: 40px;
+    font-size: 120%;
+}
+
+#message {
+    font-size: 150%;
+}
+
+#submit {
+    background-color: rgb(63, 65, 66);
+    width: 9em;
+    height: 2em;
+    margin-bottom: 20px;
+}
