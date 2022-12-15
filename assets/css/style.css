@@ -46,24 +46,20 @@ body {
 
 /*hero image*/
 
-#hero-image {
-    height: 800px;
+.img-fluid{
     width: 100%;
-    background: no-repeat center center;
-    overflow: hidden;
+    height: auto;
+    background-color: black;
 }
 
 /* section1 style rules*/
-
-#section1-background {
-    background-color: black;
-    width: 100%;
-}
 
 #section1 {
     width: 100%;
     height: 600px;
     background-color: black;
+    text-align: center;
+    position: relative;
 }
 
 #section1,p h2{
@@ -71,19 +67,12 @@ body {
 
 }
 
-#section1-img {
-    width: 45%;
-    float: left;
-    padding-top: 55px;
-    padding-left: 45px;
-}
-
 #section1-info {
-    width: 45%;
-    float: right;
-    padding-top: 55px;
-    padding-right: 45px;
-    font-size: x-large;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
 }
 
 /* section2 style rules */
@@ -91,21 +80,16 @@ body {
 #section2 {
     width: 100%;
     height: 600px;
-}
-
-#section2-img {
-    width: 45%;
-    float: left;
-    padding-top: 55px;
-    padding-left: 45px;
+    text-align: center;
+    position: relative;
 }
 
 #section2-info {
-    width: 45%;
-    float: right;
-    padding-top: 55px;
-    padding-right: 45px;
-    font-size: x-large;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
 }
 
 /* section3 style rules */
@@ -119,6 +103,8 @@ body {
     width: 100%;
     height: 600px;
     background-color: black;
+    text-align: center;
+    position: relative;
 }
 
 #section3,p h2{
@@ -126,18 +112,11 @@ body {
 }
 
 #section3-info {
-    width: 45%;
-    float: right;
-    padding-top: 55px;
-    padding-right: 45px;
-    font-size: x-large;
-}
-
-#section3-img {
-    width: 45%;
-    float: left;
-    padding-top: 55px;
-    padding-left: 45px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
 }
 
 /*footer*/
@@ -173,10 +152,6 @@ footer a:hover {
     color: grey;
 }
 
-footer a {
-    size: 50%;
-}
-
 /* video section */
 
 #vid-section{
@@ -199,18 +174,18 @@ iframe {
 #contact {
     width: 100%;
     height: 850px;
+    text-align: center;
+    position: relative;
 }
 
 .contact-section {
-    width: 500px;
-    text-align: center;
-    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
     padding-top: 60px;
     margin-bottom: 75px;
-}
-
-.contact-section h2 {
-    font-size: 200%;
 }
 
 #name, #email, #subject,  #message {
@@ -232,4 +207,53 @@ iframe {
     width: 9em;
     height: 2em;
     margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 1800px){
+    #contact-section {
+        padding: 20px;
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 600px){
+	iframe {
+        width: 80%;
+        height: 96%;
+    }
+
+    footer a {
+        font-size: 25px;
+    }
+
+@media only screen and (max-width: 470px){
+	#section3 {
+        height: 1000px;
+    }
+
+    footer a {
+        font-size: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 370px){
+
+    footer a {
+        font-size: 15px;
+    }
+
+    #section1 {
+        height: 750px;
+    }
+
+    #section2 {
+        height: 800px;
+    }
+
+    #contact-section {
+        width: 60%;
+        height: 60%;
+        padding: 5px;
+    }
 }
