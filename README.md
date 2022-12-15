@@ -2,7 +2,7 @@
 
 This website was created to provide a user who is interested in the apollo 11 mission with information about it that is presented in cronological order and has images and videos relating to the events.
 
-![Responsive Mockup](assets/images/responsiveness.jpg)
+![Responsive Mockup](assets/images/responsiveness.png)
 
 ## Features
  
@@ -33,8 +33,9 @@ This website was created to provide a user who is interested in the apollo 11 mi
 
 ![footer](assets/images/footer.jpg)
 
-- __Contact page__
-    - The contact page is where someone could potentially ask questions about something they would like to know
-    - It has a form that the user can fill out
+![validated css](assets/images/css-valid.png)
 
-![contact](assets/images/contact-page.jpg)
+![validated html](assets/images/html-valid.png)
+
+- __Validation__
+    - The css and html has been validated using the w3c sites
