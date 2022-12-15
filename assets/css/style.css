@@ -169,46 +169,6 @@ iframe {
     height: 96%;
 }
 
-/* contact section */
-
-#contact {
-    width: 100%;
-    height: 850px;
-    text-align: center;
-    position: relative;
-}
-
-.contact-section {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: block;
-    padding-top: 60px;
-    margin-bottom: 75px;
-}
-
-#name, #email, #subject,  #message {
-    border: 1px solid black;
-    width: 500px;
-}
-
-#name, #email, #subject {
-    height: 40px;
-    font-size: 120%;
-}
-
-#message {
-    font-size: 150%;
-}
-
-#submit {
-    background-color: rgb(63, 65, 66);
-    width: 9em;
-    height: 2em;
-    margin-bottom: 20px;
-}
-
 @media only screen and (max-width: 1800px){
     #contact-section {
         padding: 20px;
@@ -225,6 +185,8 @@ iframe {
     footer a {
         font-size: 25px;
     }
+
+}
 
 @media only screen and (max-width: 470px){
 	#section3 {
@@ -256,9 +218,4 @@ iframe {
         height: 800px;
     }
 
-    #contact-section {
-        width: 60%;
-        height: 60%;
-        padding: 5px;
-    }
 }
